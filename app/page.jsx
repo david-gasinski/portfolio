@@ -1,5 +1,6 @@
-import './styles/global.css'
+import './styles/global.css';
+import { motion } from 'framer-motion';
 
 export default function Page() {
-    return <h1 className="underline text-3xl" >Hello, Next.js!, This is my portfolio!</h1>;
+    return <>Bruh</>;
 }
