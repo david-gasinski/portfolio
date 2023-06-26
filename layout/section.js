@@ -1,9 +1,9 @@
 import { Container, Box } from '@chakra-ui/react';
 import { motion } from 'framer-motion';
 
-export const Section = ({ delay, children, contentTitle, key }) => {
+export const Section = ({ delay, children, contentTitle}) => {
     return (
-        <Container key={key} maxW={'container.md'}>
+        <Container maxW={'container.md'}>
             <motion.div
                 initial={{ x: 100, opacity: 0 }}
                 animate={{ x: 0, opacity: 1 }}

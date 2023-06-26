@@ -1,10 +1,10 @@
 import Head from 'next/head';
 import { ChakraProvider } from '@chakra-ui/react';
 import { Box, Container } from '@chakra-ui/react';
-import { Header } from './components/header';
-import { Socials } from './components/social';
-import { Section } from './layout/section';
-import { sections } from './content/content';
+import { Header } from '../components/header';
+import { Socials } from '../components/social';
+import { Section } from '../layout/section';
+import { sections } from '../content/content';
 
 export default function Home() {
     return (
@@ -18,7 +18,7 @@ export default function Home() {
                 <Socials />
                 <Container p={10} maxW={'container.lg'}>
                     {sections.map((value, index) => (
-                        <Section key={index} contentTitle={value.title} delay={index * 0.5}>
+                        <Section contentTitle={value.title} delay={index * 0.5}>
                             {value.content}
                         </Section>
                     ))}
