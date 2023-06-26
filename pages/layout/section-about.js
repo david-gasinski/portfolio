@@ -13,7 +13,7 @@ export const About = () => {
                 {' '}
                 Project Pixel
             </Link>
-            , a student-lead game-development team.
+            , a student-lead game-development team. Winner of 2022 <Link color={'teal'} href={'https://shefcompsoc.uk/'}>ShefJam.</Link>
         </Container>
     );
 };
