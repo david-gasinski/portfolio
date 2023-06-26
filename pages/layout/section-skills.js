@@ -14,7 +14,7 @@ export const Skills = () => {
                         pb={5}
                         key={index}
                     >
-                        {value.logo}    
+                        {value.logo}
                         <Box textColor={'#828282'} pl={'1em'}>
                             {value.tech}
                         </Box>
