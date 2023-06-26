@@ -6,7 +6,8 @@
         "framer-motion": "^10.12.17",
         "next": "latest",
         "react": "latest",
-        "react-dom": "latest"
+        "react-dom": "latest",
+        "react-icons": "^4.10.1"
     },
     "scripts": {
         "dev": "next dev",
