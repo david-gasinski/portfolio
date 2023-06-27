@@ -60,15 +60,6 @@ export const projects = [
         blog_post: 'Dynamic Porfolio Analysis Crypto Bot'
     },
     {
-        name: '2D Java Platformer',
-        description:
-            'A simple Java game made with Java.AWT. Uses free assets found from websites such as itch.io.',
-        repo: 'https://github.com/david-gasinski/',
-        tech_stack: [<FaJava />],
-        showcase: 'https://youtube.com',
-        blog_post: '2D Java Platformer'
-    },
-    {
         name: 'Footballer Management Software',
         description:
             'A program which analyses .csv files of football players. The program parses data from the .csv file into an interface, where the user can filter through players and view their statistics alongside a radarchart showcasing the average of selected players properties.',
@@ -96,3 +87,16 @@ export const projects = [
         blog_post: 'Doom Engine'
     }
 ];
+
+
+const unfinished_content = [
+    {
+        name: '2D Java Platformer',
+        description:
+            'A simple Java game made with Java.AWT. Uses free assets found from websites such as itch.io.',
+        repo: 'https://github.com/david-gasinski/',
+        tech_stack: [<FaJava />],
+        showcase: 'https://youtube.com',
+        blog_post: '2D Java Platformer'
+    }
+]
