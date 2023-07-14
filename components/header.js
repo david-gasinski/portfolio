@@ -11,7 +11,7 @@ export const Header = ({ children }) => {
                 transition={{ type: 'spring', stiffness: 100 }}
             >
                 <Code mb={5} fontSize={'3rem'}>
-                    David Gasinski
+                    Olaf Gasinski
                 </Code>
                 <Box
                     background={
