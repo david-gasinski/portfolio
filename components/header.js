@@ -24,5 +24,5 @@ export const Header = ({ children }) => {
                 {children}
             </motion.div>
         </Container>
-    );
+       );
 };
