@@ -69,7 +69,7 @@ export const projects = [
         blog_post: 'Footballer management software'
     },
     {
-        name: 'Data visualisation software',
+        name: 'Educational course tracker',
         description:
             'A course recommendation website made as part of a software engineering team. Allows the user to log in / sign up, view courses relevant to their degree. Users can mark courses as complete. After a course is completed, it can be given a rating.',
         repo: 'https://github.com/david-gasinski/',
