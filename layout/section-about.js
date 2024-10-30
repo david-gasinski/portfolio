@@ -11,7 +11,7 @@ export const About = () => {
             , an avid problem solver and athlete! Member of{' '}
             <Link color={'teal'} href={'https://www.linkedin.com/company/official-project-pixel/'}>
                 {' '}
-                Project Pixel
+                Avis Drone Labs, fellow developer of FGCS!
             </Link>
             , a student-lead game-development team. Winner of 2022{' '}
             <Link color={'teal'} href={'https://shefcompsoc.uk/'}>
